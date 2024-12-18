@@ -1,0 +1,107 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Cambiar la fuente a Arial */
+  }
+  
+  body {
+    background-color: #f4f4f9; /* Fondo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+  }
+  
+  input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #d6caca;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+  }
+  
+  input:focus {
+    border-color: #4CAF50; /* Color verde al hacer foco */
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b59dbd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #b59dbd;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,178 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Fuente en Arial */
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    width: 100%;
+  }
+  
+  input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="password"],
+  input[type="month"] {
+    width: 100%;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos específicos para los campos de pago */
+  input[type="text"]#tarjeta {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  input[type="month"]#expiracion {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  input[type="text"]#cvv {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Estilos para los campos de pago */
+  label[for="tarjeta"],
+  label[for="expiracion"],
+  label[for="cvv"] {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  /* Campo de la tarjeta de crédito */
+  input#tarjeta {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  /* Campo de expiración de la tarjeta */
+  input#expiracion {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  /* Campo de código de seguridad */
+  input#cvv {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+  }
+  
